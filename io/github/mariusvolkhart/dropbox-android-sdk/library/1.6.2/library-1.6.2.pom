@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.mariusvolkhart.dropbox-android-sdk</groupId>
+  <artifactId>library</artifactId>
+  <version>1.6.2</version>
+  <packaging>aar</packaging>
+  <name>Dropbox Android SDK</name>
+  <description>The repackaged Android SDK for the Dropbox API.</description>
+  <url>https://github.com/mariusvolkhart/dropbox-android-sdk</url>
+  <licenses>
+    <license>
+      <name>The MIT License (MIT)</name>
+      <url>https://github.com/MariusVolkhart/dropbox-android-sdk/blob/master/LICENSE</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git@github.com:mariusvolkhart/dropbox-android-sdk.git</connection>
+    <developerConnection>scm:git@github.com:mariusvolkhart/dropbox-android-sdk.git</developerConnection>
+    <url>scm:git@github.com:mariusvolkhart/dropbox-android-sdk.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.googlecode.json-simple</groupId>
+      <artifactId>json-simple</artifactId>
+      <version>1.1</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
